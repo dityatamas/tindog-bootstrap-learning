@@ -1,0 +1,171 @@
+#title{
+  background-color: #ff4c68;
+}
+
+#features{
+  text-align: center;
+  padding: 5% 4%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 19%;
+}
+
+#footer{
+  padding: 5% 4%;
+  text-align: center;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-link{
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar-item{
+  padding: 0 18px;
+}
+
+.dl-btn{
+  margin: 5% 5% 5% 0;
+}
+
+.dll-btn{
+  margin: 5% 3% 3% 0;
+}
+
+.rot-15{
+  /* To rotate by 15 degrees by the right */
+  transform: rotate(-15deg);
+  position: absolute;
+  width: 130%;
+  right: 70%;
+  z-index: 0;
+}
+
+.rot15{
+  /* To rotate by 15 degrees by the left */
+  transform: rotate(15deg);
+  width: 80%;
+  position: absolute;
+  left: 100%;
+}
+
+.big{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.big:hover{
+  color: #ff4c68;
+}
+
+.fb{
+  padding: 0 5%;
+}
+
+.tstmnl-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px; /*top left&right bottom*/
+}
+
+.carousel-item{
+  padding: 7% 19%;
+}
+
+.cta-heading{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.scl-dst{
+  margin: 20px 10px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 1.5;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+li{
+  color: #8f8f8f;
+}
+
+@media (max-width: 1000px) {
+  .row{
+    text-align: center;
+  }
+
+  .rot-15{
+    /* To rotate by 15 degrees by the right */
+    transform: rotate(0);
+    width: 120%;
+    position: static;
+  }
+
+  .rot15{
+    /* To rotate by 15 degrees by the left */
+    transform: rotate(0);
+    width: 80%;
+    position: static;
+
+    #features{
+      position: static;
+    }
+}
